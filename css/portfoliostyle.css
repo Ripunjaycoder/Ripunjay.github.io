@@ -578,17 +578,17 @@ a:focus {
 /*******************************/
 /******* Experience CSS ********/
 /*******************************/
-.educationandexperience {
+.educationexperienceandproject {
     position: relative;
     padding: 45px 0 15px 0;
 }
 
-.educationandexperience .timeline {
+.educationexperienceandproject .timeline {
     position: relative;
     width: 100%;
 }
 
-.educationandexperience .timeline::after {
+.educationexperienceandproject .timeline::after {
     content: '';
     position: absolute;
     width: 2px;
@@ -599,24 +599,24 @@ a:focus {
     margin-left: -1px;
 }
 
-.educationandexperience .timeline .timeline-item {
+.educationexperienceandproject .timeline .timeline-item {
     position: relative;
     background: inherit;
     width: 50%;
     margin-bottom: 30px;
 }
 
-.educationandexperience .timeline .timeline-item.left {
+.educationexperienceandproject .timeline .timeline-item.left {
     left: 0;
     padding-right: 30px;
 }
 
-.educationandexperience .timeline .timeline-item.right {
+.educationexperienceandproject .timeline .timeline-item.right {
     left: 50%;
     padding-left: 30px;
 }
 
-.educationandexperience .timeline .timeline-item::after {
+.educationexperienceandproject .timeline .timeline-item::after {
     content: '';
     position: absolute;
     width: 16px;
@@ -629,11 +629,11 @@ a:focus {
     z-index: 1;
 }
 
-.educationandexperience .timeline .timeline-item.right::after {
+.educationexperienceandproject .timeline .timeline-item.right::after {
     left: -8px;
 }
 
-.educationandexperience .timeline .timeline-item::before {
+.educationexperienceandproject .timeline .timeline-item::before {
   content: '';
   position: absolute;
   width: 0;
@@ -645,12 +645,12 @@ a:focus {
   border-color: transparent transparent transparent #dddddd;
 }
 
-.educationandexperience .timeline .timeline-item.right::before {
+.educationexperienceandproject .timeline .timeline-item.right::before {
   left: 10px;
   border-color: transparent #dddddd transparent transparent;
 }
 
-.educationandeducationandexperience .timeline .timeline-date {
+.educationexperienceandproject .timeline .timeline-date {
     position: absolute;
     width: 100%;
     top: 44px;
@@ -662,19 +662,19 @@ a:focus {
     z-index: 1;
 }
 
-.educationandexperience .timeline .timeline-item.left .timeline-date {
+.educationexperienceandproject .timeline .timeline-item.left .timeline-date {
     text-align: left;
     left: calc(100% + 55px);
     color: white;
 }
 
-.educationandexperience .timeline .timeline-item.right .timeline-date {
+.educationexperienceandproject .timeline .timeline-item.right .timeline-date {
     text-align: right;
     right: calc(100% + 55px);
     color: white;
 }
 
-.educationandexperience .timeline .timeline-text {
+.educationexperienceandproject .timeline .timeline-text {
     padding: 30px;
     background: #292929;
     position: relative;
@@ -682,19 +682,19 @@ a:focus {
     box-shadow: 0 0 60px rgba(0, 0, 0, .08);
 }
 
-.educationandexperience .timeline .timeline-item.right .timeline-text {
+.educationexperienceandproject .timeline .timeline-item.right .timeline-text {
     border-right: none;
     border-left: 5px solid #3d3d3d;
 }
 
-.educationandexperience .timeline .timeline-text h2 {
+.educationexperienceandproject .timeline .timeline-text h2 {
     margin: 0 0 5px 0;
     font-size: 22px;
     font-weight: 600;
     color: white;
 }
 
-.educationandexperience .timeline .timeline-text h4 {
+.educationexperienceandproject .timeline .timeline-text h4 {
     margin: 0 0 10px 0;
     font-size: 16px;
     font-style: italic;
@@ -702,44 +702,44 @@ a:focus {
     color: white;
 }
 
-.educationandexperience .timeline .timeline-text p {
+.educationexperienceandproject .timeline .timeline-text p {
     margin: 0;
     font-size: 16px;
     color: white;
 }
 
 @media (max-width: 767.98px) {
-    .educationandexperience .timeline::after {
+    .educationexperienceandproject .timeline::after {
         left: 8px;
     }
 
-    .educationandexperience .timeline .timeline-item {
+    .educationexperienceandproject .timeline .timeline-item {
         width: 100%;
         padding-left: 38px;
     }
     
-    .educationandexperience .timeline .timeline-item.left {
+    .educationexperienceandproject .timeline .timeline-item.left {
         padding-right: 0;
     }
     
-    .educationandexperience .timeline .timeline-item.right {
+    .educationexperienceandproject .timeline .timeline-item.right {
         left: 0%;
         padding-left: 38px;
     }
 
-    .educationandexperience .timeline .timeline-item.left::after, 
-    .educationandexperience .timeline .timeline-item.right::after {
+    .educationexperienceandproject .timeline .timeline-item.left::after, 
+    .educationexperienceandproject .timeline .timeline-item.right::after {
         left: 0;
     }
     
-    .educationandexperience .timeline .timeline-item.left::before,
-    .educationandexperience .timeline .timeline-item.right::before {
+    .educationexperienceandproject .timeline .timeline-item.left::before,
+    .educationexperienceandproject .timeline .timeline-item.right::before {
         left: 18px;
         border-color: transparent #dddddd transparent transparent;
     }
     
-    .educationandexperience .timeline .timeline-item.left .timeline-date,
-    .educationandexperience .timeline .timeline-item.right .timeline-date {
+    .educationexperienceandproject .timeline .timeline-item.left .timeline-date,
+    .educationexperienceandproject .timeline .timeline-item.right .timeline-date {
         position: relative;
         top: 0;
         right: auto;
@@ -748,12 +748,45 @@ a:focus {
         margin-bottom: 10px;
     }
     
-    .educationandexperience .timeline .timeline-item.left .timeline-text,
-    .educationandexperience .timeline .timeline-item.right .timeline-text {
+    .educationexperienceandproject .timeline .timeline-item.left .timeline-text,
+    .educationexperienceandproject .timeline .timeline-item.right .timeline-text {
         border-right: none;
         border-left: 5px solid #dddddd;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*******************************/
